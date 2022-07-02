@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13a2806d-df5a-4604-b8fd-767ba101fd43" name="Changes" comment="release v0.0.1">
-      <change afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/ConfProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/conf.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="13a2806d-df5a-4604-b8fd-767ba101fd43" name="Changes" comment="feature: login page has been created.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/ProfilePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656759959866</updated>
-      <workItem from="1656759961319" duration="624000" />
+      <workItem from="1656759961319" duration="991000" />
     </task>
     <task id="LOCAL-00001" summary="release v0.0.1">
       <created>1656760032526</created>
@@ -72,7 +68,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656760032526</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feature: config file created, driver installed.">
+      <created>1656760626310</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656760626310</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feature: login page has been created.">
+      <created>1656760827700</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656760827700</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +102,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="release v0.0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="release v0.0.1" />
+    <MESSAGE value="feature: config file created, driver installed." />
+    <MESSAGE value="feature: login page has been created." />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: login page has been created." />
   </component>
 </project>
