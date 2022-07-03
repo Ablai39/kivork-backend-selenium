@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13a2806d-df5a-4604-b8fd-767ba101fd43" name="Changes" comment="feature: request submission page has been created.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/HttpClientExample.java" afterDir="false" />
+    <list default="true" id="13a2806d-df5a-4604-b8fd-767ba101fd43" name="Changes" comment="feature: sending get request to https://freegeoip.app/json/ implemented.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/StaleElementReferenceException/StaleElementReferenceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/SwitchingBetweenTabs/SwitchingBetweenTabs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/ConfProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/AuthInYandex/ConfProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/HttpClientExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/FreeGeoIpApp/FreeGeoIpApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/AuthInYandex/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/AuthInYandex/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/RequestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/AuthInYandex/RequestPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/conf.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/conf.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +60,13 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HttpClientExample">
+  <component name="RunManager" selected="JUnit.LoginTest">
     <configuration name="GetRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.kivorkbackendselenium.GetRequest" />
       <module name="kivork-backend-selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.kivorkbackendselenium.*" />
+          <option name="PATTERN" value="com.example.kivorkbackendselenium.FreeGeoIpApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +74,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpClientExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.kivorkbackendselenium.HttpClientExample" />
+    <configuration name="SwitchingBetweenTabs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.kivorkbackendselenium.SwitchingBetweenTabs.SwitchingBetweenTabs" />
       <module name="kivork-backend-selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.kivorkbackendselenium.*" />
+          <option name="PATTERN" value="com.example.kivorkbackendselenium.SwitchingBetweenTabs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.kivorkbackendselenium.FreeGeoIpApp.FreeGeoIpApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.kivorkbackendselenium.FreeGeoIpApp.FreeGeoIpApp" />
+      <module name="kivork-backend-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.kivorkbackendselenium.FreeGeoIpApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +104,12 @@
       <module name="kivork-backend-selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.kivorkbackendselenium.*" />
+          <option name="PATTERN" value="com.example.kivorkbackendselenium.FreeGeoIpApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.kivorkbackendselenium" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kivorkbackendselenium.LoginTest" />
+      <option name="PACKAGE_NAME" value="com.example.kivorkbackendselenium.AuthInYandex" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kivorkbackendselenium.AuthInYandex.LoginTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,9 +117,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HttpClientExample" />
-        <item itemvalue="Application.GetRequest" />
         <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="Application.SwitchingBetweenTabs" />
+        <item itemvalue="Application.com.example.kivorkbackendselenium.FreeGeoIpApp.FreeGeoIpApp" />
+        <item itemvalue="Application.com.example.kivorkbackendselenium.GetRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656759959866</updated>
-      <workItem from="1656759961319" duration="4086000" />
+      <workItem from="1656759961319" duration="13000000" />
     </task>
     <task id="LOCAL-00001" summary="release v0.0.1">
       <created>1656760032526</created>
@@ -142,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656761100642</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feature: sending get request to https://freegeoip.app/json/ implemented.">
+      <created>1656836390048</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656836390048</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +192,7 @@
     <MESSAGE value="feature: config file created, driver installed." />
     <MESSAGE value="feature: login page has been created." />
     <MESSAGE value="feature: request submission page has been created." />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: request submission page has been created." />
+    <MESSAGE value="feature: sending get request to https://freegeoip.app/json/ implemented." />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: sending get request to https://freegeoip.app/json/ implemented." />
   </component>
 </project>
