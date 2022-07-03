@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13a2806d-df5a-4604-b8fd-767ba101fd43" name="Changes" comment="feature: login page has been created.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/ProfilePage.java" afterDir="false" />
+    <list default="true" id="13a2806d-df5a-4604-b8fd-767ba101fd43" name="Changes" comment="feature: request submission page has been created.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/HttpClientExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/kivorkbackendselenium/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +54,56 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.HttpClientExample">
+    <configuration name="GetRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.kivorkbackendselenium.GetRequest" />
+      <module name="kivork-backend-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.kivorkbackendselenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpClientExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.kivorkbackendselenium.HttpClientExample" />
+      <module name="kivork-backend-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.kivorkbackendselenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kivork-backend-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.kivorkbackendselenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.kivorkbackendselenium" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kivorkbackendselenium.LoginTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HttpClientExample" />
+        <item itemvalue="Application.GetRequest" />
+        <item itemvalue="JUnit.LoginTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656759959866</updated>
-      <workItem from="1656759961319" duration="991000" />
+      <workItem from="1656759961319" duration="4086000" />
     </task>
     <task id="LOCAL-00001" summary="release v0.0.1">
       <created>1656760032526</created>
@@ -82,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656760827700</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feature: request submission page has been created.">
+      <created>1656761100642</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656761100642</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +164,7 @@
     <MESSAGE value="release v0.0.1" />
     <MESSAGE value="feature: config file created, driver installed." />
     <MESSAGE value="feature: login page has been created." />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: login page has been created." />
+    <MESSAGE value="feature: request submission page has been created." />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: request submission page has been created." />
   </component>
 </project>
