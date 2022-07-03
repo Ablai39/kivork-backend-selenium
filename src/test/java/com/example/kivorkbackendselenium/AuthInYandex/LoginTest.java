@@ -59,6 +59,7 @@ public class LoginTest {
     public static void tearDown() {
         requestPage.entryMenu();
         requestPage.userLogout();
+        System.out.println("Test completed successfully");
         driver.quit();
     }
 }
